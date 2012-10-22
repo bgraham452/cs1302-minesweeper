@@ -136,28 +136,12 @@ our class with some private repositories! This gives an excellent opportunity to
 practice with version control.
 
 The files for this project are hosted Github using <code>git</code>. They can be
-retrieved by cloning the repository found at <code>git@github.com:mepcotterell/cs1302-minesweeper.git</code>. 
-For example, you can issue the following command to clone the repository:
-
-    $ git clone git@github.com:mepcotterell/cs1302-minesweeper.git LastName1-Lastname2-p3
-
-The two different last names refer to you and your partner.
-As always, I suggest developing directly on <code>nike.cs.uga.edu</code> because
-this is where your project will be run and tested. Since <code>git</code> is 
-already installed on <code>nike</code>, you can clone the project directly int your 
-<code>nike</code> home directory.
-
-If any changes are made to the project description or skeleton code, they will
-be announced in class. In order to incorporate such changes into your code, you 
-need only do a <code>git pull</code>.
-
-Also, since <code>git</code> is a decentralized version control system, you will
+retrieved by cloning the repository found at <code>git@github.com:mepcotterell-cs1302/cs1302-minesweeper.git</code>. 
+Since <code>git</code> is a decentralized version control system, you will
 have your own local copy of the repository. This means that you can log your 
 changes using commits and even revert to a previous revision if necessary. For
 this project, using <code>git</code> for version control is part of the project
 requirements.
-
-JavaDoc for the skeleton code should be available [here](http://cs.uga.edu/~mec/cs1302/projects/p3/cs1302-minesweeper/target/scala-2.9.2/api/).
 
 ## Directory Structure and Packages
 
