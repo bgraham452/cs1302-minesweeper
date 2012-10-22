@@ -62,7 +62,7 @@ chance to review your group's progress.
     information about this will be provided below. The initial set of 
     UML diagrams is due 2012-11-02 @ 11:59pm.
 
- 3. (40 points) Implement your classes based on the UML diagrams and GUI mock-ups
+ 3. (30 points) Implement your classes based on the UML diagrams and GUI mock-ups
     you submitted. If you need to make modifications to that design then you must 
     submit updates to both your UML diagrams and GUI mock-ups as needed to reflect 
     the current state of development. This is due 2012-11-09 @ 11:59pm.
@@ -80,10 +80,11 @@ chance to review your group's progress.
     methods or classes then they will need to be properly documented using
     JavaDoc comments and tags. This is due 2012-11-09 @ 11:59pm.
 
- 6. (10 points) Peer evaluation. This will be presented after the project due
-    date and will be used as part of your grade. Details concerning this portion
-    of the grading rubric are to be intentionally witheld until after the
-    projects are submitted. 
+ 6. (20 points) Version Control. You will be required to use <code>git</code> for
+    this project. A portion of your grade will be determined based on you and
+    your partner's <code>git log</code>. Please follow the directions outlined
+    in the resources section carefully in order to make sure and your partner
+    have this setup properly.
 
  7. Update the <code>README.md</code> in your project directory to contain the 
     following information at the top of the file (updating it with your own 
@@ -129,6 +130,10 @@ README as well as (at least) the following:
  2. More coming soon!
 
 ## Resources
+
+I am pleased to announce that GitHub's Education Liaison, John Britton, has provided 
+our class with some private repositories! This gives an excellent opportunity to
+practice with version control.
 
 The files for this project are hosted Github using <code>git</code>. They can be
 retrieved by cloning the repository found at <code>git@github.com:mepcotterell/cs1302-minesweeper.git</code>. 
