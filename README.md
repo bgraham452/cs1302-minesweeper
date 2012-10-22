@@ -20,16 +20,24 @@ see the section on Pair Programming below.
 
 ## Project Description
 
-Your goal is to develop a...
+Your goal is to develop a Minesweeper game with a graphical user interface
+implemented in Swing. Instructions and specific implementation details are
+presented below.
 
 ## Pair Programming
 
-Students are required to work in groups of two for this project. Futhermore,
+Students are required to work in groups of two for this project. Furthermore,
 each group needs to engage in _pair programming_. Pair programming is an agile 
 software development technique in which two programmers work together at one 
 workstation. One, the _driver_, writes code while the other, the _observer_ 
 (or _navigator_), reviews each line of code as it is typed in. The two 
 programmers switch roles frequently.
+
+Yes, this involves physically meeting with your partner. Not being able to
+find time is NOT an excuse for not participating. If you need a place to meet
+and work on the project then I suggest the 307 lab in Boyd. The iMacs are
+already setup with everything you need. You login to them with your <code>nike</code>
+account and all of your <code>nike<code> stuff is already there.
 
 ## Project Tasks
 
@@ -59,10 +67,10 @@ chance to review your group's progress.
     submit updates to both your UML diagrams and GUI mock-ups as needed to reflect 
     the current state of development. This is due 2012-11-09 @ 11:59pm.
 
- 4. (15 points) Create JUnit tests for classes and methods that can be tested.
+ 4. (20 points) Create JUnit tests for classes and methods that can be tested.
     This is due 2012-11-09 @ 11:59pm.
 
- 5. (15 points) Ensure that your code is properly documented using inline comments as 
+ 5. (10 points) Ensure that your code is properly documented using inline comments as 
     necessary. In general, you should describe in regular terms what it is the
     code that you are writing is doing. A small example of such comments can be
     seen in the <code>createAndShowGUI</code> method in the  <code>Calculator</code>
@@ -72,10 +80,10 @@ chance to review your group's progress.
     methods or classes then they will need to be properly documented using
     JavaDoc comments and tags. This is due 2012-11-09 @ 11:59pm.
 
- 6. (10 points) Ensure that you are using <code>git</code> for version control.
-    We will check your git log to make sure you are committing changes to your
-    source-code frequently. A good time to commit is every time you make a change
-    to your code and it successfully compiles. This is due 2012-11-09 @ 11:59pm.
+ 6. (10 points) Peer evaluation. This will be presented after the project due
+    date and will be used as part of your grade. Details concerning this portion
+    of the grading rubric are to be intentionally witheld until after the
+    projects are submitted. 
 
  7. Update the <code>README.md</code> in your project directory to contain the 
     following information at the top of the file (updating it with your own 
@@ -93,14 +101,18 @@ chance to review your group's progress.
 
 You may earn up to 5 points extra credit for each of the tasks listed below:
 
- 1. Design your user interface so that the Calculator application can be used
-    entirely using the keyboard.
+ 1. Design and implement your user interface so that the Calculator application 
+    can be used entirely using the keyboard.
 
- 2. To be decided.
+ 2. 
 
 ## Recursive Minesweeper
 
-Too be written.
+This is part is pretty simple, but you are going to have to be very careful so
+you don't get a stack overflow exception. When the user clicks on a coordinate,
+for each adjacent coordinate, we check the number of adjacent mines. In recursive
+minesweeper, if you check an adjacent coordinate and the number of adjacent
+mines is zero then you recurse and click on that coordinate as well.
 
 ## Design Suggestions
 
@@ -118,8 +130,9 @@ The files for this project are hosted Github using <code>git</code>. They can be
 retrieved by cloning the repository found at <code>git@github.com:mepcotterell/cs1302-minesweeper.git</code>. 
 For example, you can issue the following command to clone the repository:
 
-    $ git clone git@github.com:mepcotterell/cs1302-minesweeper.git LastName-FirstName-p3
+    $ git clone git@github.com:mepcotterell/cs1302-minesweeper.git LastName1-Lastname2-p3
 
+The two different last names refer to you and your partner.
 As always, I suggest developing directly on <code>nike.cs.uga.edu</code> because
 this is where your project will be run and tested. Since <code>git</code> is 
 already installed on <code>nike</code>, you can clone the project directly int your 
@@ -170,16 +183,16 @@ In order to clean your project (remove compiled code), use the following command
 
 You will still be submitting your project via <code>nike</code>. Make sure your 
 work is on <code>nike.cs.uga.edu</code> in a directory called 
-<code>LastName-FirstName-p2</code>, and, from within the parent directory, 
+<code>LastName1-LastName2-p3</code>, and, from within the parent directory, 
 execute the following command:
 
-    $ submit LastName_FirstName-p3 cs1302a
+    $ submit LastName1-LastName2-p3 cs1302a
 
 It is also a good idea to email a copy to yourself. To do this, simply execute 
 the following command, replacing the email address with your email address:
 
-    $ tar zcvf LastName-FirstName-p2.tar.gz LastName-FirstName-p3
-    $ mutt -s "[cs1302] p3" -a LastName-FirstName-p3.tar.gz -- your@email.com < /dev/null
+    $ tar zcvf LastName1-LastName2-p3.tar.gz LastName-FirstName-p3
+    $ mutt -s "[cs1302] p3" -a LastName1-LastName2-p3.tar.gz -- your@email.com < /dev/null
 
 ## Questions
 
