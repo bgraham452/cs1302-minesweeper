@@ -37,7 +37,7 @@ Yes, this involves physically meeting with your partner. Not being able to
 find time is NOT an excuse for not participating. If you need a place to meet
 and work on the project then I suggest the 307 lab in Boyd. The iMacs are
 already setup with everything you need. You login to them with your <code>nike</code>
-account and all of your <code>nike<code> stuff is already there.
+account and all of your <code>nike</code> stuff is already there.
 
 ## Project Tasks
 
