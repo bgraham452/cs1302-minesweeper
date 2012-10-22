@@ -104,7 +104,11 @@ You may earn up to 5 points extra credit for each of the tasks listed below:
  1. Design and implement your user interface so that the Calculator application 
     can be used entirely using the keyboard.
 
- 2. 
+ 2. Instead of setting text for each button, paint them. This will allow you
+    to use cool looking graphics.
+
+ 3. Implement a leader board for highschores. You will need to read and write
+    to a text file in order to implement this.
 
 ## Recursive Minesweeper
 
@@ -117,12 +121,12 @@ mines is zero then you recurse and click on that coordinate as well.
 ## Design Suggestions
 
 You may design your minesweeper game to look as plain or as cool as you want.
-A suggested mock-up of the graphical user interface is provided below.
 
-Coming soon!
+Your user interface should provide the functionality expressed earlier in this
+README as well as (at least) the following:
 
-Your GUI should incorporate at least the same functionality as the one in the
-above mock-up. The meaning for most of the buttons is obvious. 
+ 1. The player should be able to specify the size of the gameboard.
+ 2. More coming soon!
 
 ## Resources
 
