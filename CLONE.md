@@ -20,6 +20,7 @@ repository:
 
 ````
 $ git clone git@github.com:mepcotterell-cs1302/cs1302-minesweeper.git LastName-LastName-p3
+$ cd LastName-LastName-p3
 $ git remote add upstream <insert private repos url here>
 $ git push -u upstream master
 ````
@@ -28,4 +29,15 @@ $ git push -u upstream master
 
 ## Notes
 
-Now when you want to 
+Now when you <code>push</code> or <code>pull</code>, your committed changes will go to your
+private repository on GitHub!
+
+If an update to the skeleton code is announced then you need to issue the following
+command from withing the project directory in order to make sure that you are 
+pulling from the appropriae place:
+
+````
+$ git pull git@github.com:mepcotterell-cs1302/cs1302-minesweeper.git
+````
+
+If you have any questions then feel free to email <code>mepcotterell+1302@gmail.com</code>.
