@@ -18,9 +18,11 @@ team in the space below:
 3. Login to your <code>nike</code> account and use the following commands to clone the
 repository:
 
-    $ git clone git@github.com:mepcotterell-cs1302/cs1302-minesweeper.git LastName-LastName-p3
-    $ git remote add upstream <insert private repos url here>
-    $ git push -u upstream master
+````
+$ git clone git@github.com:mepcotterell-cs1302/cs1302-minesweeper.git LastName-LastName-p3
+$ git remote add upstream <insert private repos url here>
+$ git push -u upstream master
+````
 
 4. Start working!
 
