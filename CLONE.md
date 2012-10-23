@@ -5,7 +5,8 @@
 1. Each person on the team needs to register an account on GitHub.
 
 2. First, you need to follow the instructions from GitHub on how to 
-[generate an SSH public and private key](https://help.github.com/articles/generating-ssh-keys). You need to follow the steps in that help page for every computer that you 
+generate an SSH public and private keys at: https://help.github.com/articles/generating-ssh-keys.
+ You need to follow the steps in that help page for every computer that you 
 wish to be able to work on the project from. If you do this on <code>nike</code> then
 you will be able to work on the project from <code>nike</code> and the iMacs in the
 Boyd 307 lab.
