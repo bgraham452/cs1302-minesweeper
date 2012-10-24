@@ -102,7 +102,7 @@ chance to review your group's progress.
 
 You may earn up to 5 points extra credit for each of the tasks listed below:
 
- 1. Design and implement your user interface so that the Calculator application 
+ 1. Design and implement your user interface so that the minesweeper game 
     can be used entirely using the keyboard.
 
  2. Instead of setting text for each button, paint them. This will allow you
@@ -147,6 +147,10 @@ requirements.
 
 All of the non-test classes for this project should be contained in the <code>src/main/java/cs1302/minesweeper</code>
 directory. These classes are in the <code>cs1302.minesweeper</code> package.
+
+The UML designs and GUI mock-ups need to go into a directory called <code>designs</code>. The GUI mockups
+should go into the <code>designs/gui</code> directory. The UML class diagrams should go into the
+<code>designs/uml</code> directory.
 
 All of the JUnit test classes for this project should be contained in the <code>src/test/java/cs1302/minesweeper</code>
 directory. These classes are also contained in the <code>cs1302.minesweeper</code> 
